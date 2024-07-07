@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+.container {
+    display: flex;
+    width: 70%;
+    height: 90%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.left {
+    background-color: #fff;
+    width: 60%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    color: #333;
+}
+.left p {
+    margin: 10px 0 20px;
+    font-size: 14px;
+    color: #666;
+}
+.left .social-login {
+    display: flex;
+    gap: 10px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.left .social-login button {
+    flex: 1;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.left .social-login button.google {
+    background-color: #ffffff;
+    color: #000000;
+}
+.left .social-login button.google:hover {
+    background-color: #2c0000;
+    color: #ffffff;
+}
+.left .social-login button.facebook {
+    background-color: #ffffff;
+    color: #000000;
+}
+.left .social-login button.facebook:hover {
+    background-color: #365797;
+    color: #fff;
+}
+.left form {
+    display: flex;
+    flex-direction: column;
+}
+.left form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.left form .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.left form .remember-forgot label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.left form .remember-forgot input {
+    margin-right: 5px;
+}
+.left form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.left form button:hover {
+    background-color: #0056b3;
+}
+.left .create-account {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.left .create-account a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.left .create-account a:hover {
+    color: #0056b3;
+}
+.right {
+    background-color: rgb(37, 94, 210);
+    color: #fff;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.right img {
+    width: 650px;
+    margin-bottom: 20px;
+}
+.right h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.right p {
+    font-size: 14px;
+    text-align: center;
+}
+.gg{
+    margin-left: -85px;
+    width: 30px;
+}
+.or-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #bbb;
+    margin: 20px 0;
+    margin-bottom: 40px;
+}
+.or-divider::before,
+.or-divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #bbb;
+}
+.or-divider::before {
+    margin-right: 10px;
+}
+.or-divider::after {
+    margin-left: 10px;
+}
+.csl{
+    bottom: 50px;
+    width: 350px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
